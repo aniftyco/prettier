@@ -1,0 +1,43 @@
+{
+  "name": "@aniftyco/prettier",
+  "version": "0.0.0",
+  "description": "Standardized code formatting via Prettier config for NiftyCo projects",
+  "license": "MIT",
+  "repository": "aniftyco/prettier",
+  "main": "prettier.json",
+  "author": {
+    "name": "Nifty Development, LLC",
+    "url": "https://aniftyco.com"
+  },
+  "contributors": [
+    {
+      "name": "Josh Manders",
+      "email": "josh@aniftyco.com"
+    }
+  ],
+  "engines": {
+    "npm": ">=v8.15.0",
+    "node": ">=16.17.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "prettier.json"
+  ],
+  "keywords": [
+    "prettier",
+    "config",
+    "configuration",
+    "aniftyco",
+    "niftyco"
+  ],
+  "prettier": "./prettier.json",
+  "scripts": {
+    "test": "prettier --config prettier.json --check tests"
+  },
+  "devDependencies": {
+    "@types/node": "^18.13.0",
+    "prettier": "^2.8.4"
+  }
+}
