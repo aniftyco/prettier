@@ -19,8 +19,15 @@
   "embeddedLanguageFormatting": "auto",
   "singleAttributePerLine": false,
   "pluginSearchDirs": false,
-  "plugins": ["prettier-plugin-organize-imports", "prettier-plugin-tailwindcss"],
+  "plugins": ["@trivago/prettier-plugin-sort-imports", "prettier-plugin-tailwindcss"],
   "tailwindFunctions": ["clsx", "cn"],
+  "importOrder": ["^react", "<THIRD_PATYY_MODULES>", "^@app/(.*)$", "^@vendor/(.*)$", "^[./]"],
+  "importOrderSeparation": false,
+  "importOrderSortSpecifiers": false,
+  "importOrderGroupNamespaceSpecifiers": false,
+  "importOrderCaseInsensitive": false,
+  "importOrderParserPlugins": ["typescript", "jsx"],
+  "importOrderSideEffects": true,
   "overrides": [
     {
       "files": ["*.yaml", "*.yml"],
