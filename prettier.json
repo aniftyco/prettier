@@ -32,7 +32,11 @@
     {
       "files": ["*.blade.php"],
       "options": {
-        "parser": "blade"
+        "parser": "blade",
+        "wrapAttributes": "force-expand-multiline",
+        "wrapAttributesMinAttrs": 4,
+        "sortHtmlAttributes": "idiomatic",
+        "componentPrefix": "x-,livewire:,flux:"
       }
     },
     {
