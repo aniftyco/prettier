@@ -19,7 +19,8 @@
   "embeddedLanguageFormatting": "auto",
   "singleAttributePerLine": false,
   "pluginSearchDirs": false,
-  "plugins": [],
+  "plugins": ["prettier-plugin-organize-imports", "prettier-plugin-tailwindcss"],
+  "tailwindFunctions": ["clsx", "cn"],
   "overrides": [
     {
       "files": ["*.yaml", "*.yml"],
