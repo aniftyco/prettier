@@ -19,7 +19,7 @@
   "embeddedLanguageFormatting": "auto",
   "singleAttributePerLine": false,
   "pluginSearchDirs": false,
-  "plugins": ["@trivago/prettier-plugin-sort-imports", "prettier-plugin-tailwindcss"],
+  "plugins": ["@trivago/prettier-plugin-sort-imports", "prettier-plugin-tailwindcss", "@shufo/prettier-plugin-blade"],
   "tailwindFunctions": ["clsx", "cn"],
   "importOrder": ["^react", "<THIRD_PATYY_MODULES>", "^@app/(.*)$", "^@vendor/(.*)$", "^[./]"],
   "importOrderSeparation": false,
@@ -29,6 +29,12 @@
   "importOrderParserPlugins": ["typescript", "jsx"],
   "importOrderSideEffects": true,
   "overrides": [
+    {
+      "files": ["*.blade.php"],
+      "options": {
+        "parser": "blade"
+      }
+    },
     {
       "files": ["*.yaml", "*.yml"],
       "options": {

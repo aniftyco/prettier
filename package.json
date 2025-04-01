@@ -41,6 +41,7 @@
     "prettier": "^2.8.4"
   },
   "dependencies": {
+    "@shufo/prettier-plugin-blade": "^1.15.3",
     "@trivago/prettier-plugin-sort-imports": "^5.2.2",
     "prettier-plugin-tailwindcss": "^0.6.11"
   }
