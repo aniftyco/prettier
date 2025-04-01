@@ -1,6 +1,6 @@
 {
   "name": "@aniftyco/prettier",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Standardized code formatting via Prettier config for NiftyCo projects",
   "license": "MIT",
   "repository": "aniftyco/prettier",
