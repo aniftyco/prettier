@@ -21,7 +21,7 @@
   "pluginSearchDirs": false,
   "plugins": ["@trivago/prettier-plugin-sort-imports", "prettier-plugin-tailwindcss", "@shufo/prettier-plugin-blade"],
   "tailwindFunctions": ["clsx", "cn"],
-  "importOrder": ["^react", "<THIRD_PATYY_MODULES>", "^@app/(.*)$", "^@vendor/(.*)$", "^[./]"],
+  "importOrder": ["^react", "<THIRD_PARTY_MODULES>", "^@app/(.*)$", "^@vendor/(.*)$", "^[./]"],
   "importOrderSeparation": false,
   "importOrderSortSpecifiers": false,
   "importOrderGroupNamespaceSpecifiers": false,
